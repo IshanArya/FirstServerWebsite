@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::selection{
+	background: #B71C1C;
+	color: #FFEBEE;
+}
+body{
+	background: #B71C1C;
+}
+
+.box{
+	display: block;
+	width: 50%;
+	height: 200px;
+	background: #EF9A9A;
+	border-radius: 25px;
+	border: 0;
+	margin: 0 auto;
+	font-size: 20px;
+	padding: 13px;
+}
+
+#translate{
+	width: 100%;
+	height: 50px;
+	background: #F44336;
+	color: #FFEBEE;
+	border: 1;
+	border-color: #FFEBEE;
+	cursor: pointer;
+	padding: auto;
+	text-transform: uppercase;
+	font-family: Dosis;
+	font-weight: bold;
+	font-size: 20px;
+	outline: none;
+}
+#translate:hover{
+	background: #FFCDD2;
+	color: #212121;
+	border-color: #212121;
+}
+
+.button-container{
+	width: 50%;
+	margin: 10px auto;
+}
+
+#input{
+	resize: none;
+	outline: none;
+}
